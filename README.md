@@ -132,11 +132,12 @@ The full R script and auxiliary files are available in this repository.
 To reproduce the analysis:
 
 
-Copy code
 source("main_script.R")
+
 ✍️ Author
 Sergey Filipov
-📍 Technical University – Sofia
+
+Technical University – Sofia
 📅 2025
 
 🎓 Master’s Thesis Project:
