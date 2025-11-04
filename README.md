@@ -131,7 +131,7 @@ Feature enrichment using manufacturing year and speed improves classification pe
 The full R script and auxiliary files are available in this repository.
 To reproduce the analysis:
 
-r
+
 Copy code
 source("main_script.R")
 ✍️ Author
