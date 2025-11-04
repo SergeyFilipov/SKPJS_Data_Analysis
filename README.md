@@ -89,6 +89,18 @@ Axle load and side-gauge deviations are strong predictors of mechanical anomalie
 Nonlinear models (XGBoost, MLP) outperform linear baselines in precision and recall.
 Feature enrichment using manufacturing year and speed improves classification performance.
 
+🧰 Environment Setup
+This project uses the [`renv`](https://rstudio.github.io/renv/) package to ensure a fully reproducible R environment.  
+All package versions used in the analysis are stored in the `renv.lock` file.
+
+To recreate the exact setup on another system:
+
+# 1️⃣ Install renv if not already installed
+install.packages("renv")
+
+# 2️⃣ Restore the project environment
+renv::restore()
+
 📁 Access to Code
 The full R script and auxiliary files are available in this repository.
 To reproduce the analysis:
